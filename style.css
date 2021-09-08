@@ -82,10 +82,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------*/
-
+html,
 body {
    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
    font-weight: 600;
+   height: 100%;
 }
 
 h1,
@@ -95,6 +96,8 @@ h3 {
 }
 
 .wrapper {
+   display: flex;
+	flex-direction: column;
    min-height: 100%;
    overflow: hidden;
 }
@@ -223,6 +226,7 @@ h3{
    margin-bottom: 15px;
 }
 .footer {
+   flex: 0 0 auto;
    background-color: rgb(140, 140, 236);
 }
 
