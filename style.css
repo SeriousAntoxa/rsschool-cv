@@ -156,19 +156,19 @@ h3{
    flex-direction: row;
 }
 .main__aside {
-   padding: 20px 0px;
+   padding: 20px 10px;
    display: flex;
    flex-direction: column; 
 }
 
 .main__content {
-   padding: 20px 0px;
+   padding: 20px 0;
    display: flex;
    flex-direction: column;
 }
 
 .aside__columns {
-   padding: 0px 10px;
+   padding: 0 15px 0 0;
 }
 
 .aside__skills {
@@ -197,13 +197,13 @@ h3{
 }
 .english__level {
    align-self: center;
-   font-size: 44px;
+   font-size: 42px;
 }
 .contacts__items {
    padding: 10px 0px 0px 15px;
 }
 .contacts__item {
-   font-size: 18px;
+   font-size: 16px;
    line-height: 26px;
 }
 
@@ -229,6 +229,7 @@ h3{
 .footer__items {
    display: flex;
    justify-content: space-between;
+   align-items: center;
    margin: 15px 0 15px 0;
 }
 
