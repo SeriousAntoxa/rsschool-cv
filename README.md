@@ -1,1 +1,1 @@
-https://SeriousAntoxa.github.io/rsschool-cv/rsschool-cv-html
+https://SeriousAntoxa.github.io/rsschool-cv/
